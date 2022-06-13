@@ -1,15 +1,16 @@
- package com.preschool
+ package com.preschool.ui.register
 
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
+import com.google.android.material.snackbar.Snackbar
+import com.preschool.R
 import com.preschool.databinding.ActivityRegisterBinding
 
-class RegisterActivity : AppCompatActivity() {
+ class RegisterActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityRegisterBinding
